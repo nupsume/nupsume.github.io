@@ -104,7 +104,32 @@ body {
 }
 
 .social-links ul li:hover {
-  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  color: black !important;
+}
+
+.social-links .twitter:hover {
+  background: #a687ca;
+}
+
+.social-links .instagram:hover {
+  background: #36cedc;
+}
+
+.social-links .tumblr:hover {
+  background: #8ee968;
+}
+
+.social-links .tiktok:hover {
+  background: #ffe959;
+}
+
+.social-links .bsky:hover {
+  background: #ffb850;
+}
+
+.social-links .reddit:hover {
+  background: #fe797c;
 }
 
 .social-links ul li a {
@@ -127,12 +152,8 @@ body {
 
 
 .svg-icon {
+  margin-top: 5px;
   width: 30px;
-  height: 30px;
   fill: white;
-  position:relative;
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-align: center;
+  align-self: center;
 }
