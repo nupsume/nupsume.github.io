@@ -108,6 +108,10 @@ body {
   color: black !important;
 }
 
+.social-links .steam:hover {
+  background: #1b1b1b;
+}
+
 .social-links .twitter:hover {
   background: #a687ca;
 }
